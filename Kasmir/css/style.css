@@ -608,7 +608,8 @@ h6 {
 
 .slider-arrows {
   position: absolute;
-  bottom: -130px;
+  cursor: pointer;
+  bottom: 0;
   left: 35%;
 }
 @media (max-width: 1230px) {
