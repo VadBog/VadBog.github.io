@@ -529,10 +529,7 @@ textarea.input {
 
 .main-display__trailer {
   position: relative;
-  background: url(../img/main/main.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url(../img/main/main.jpg) 0/cover no-repeat;
   height: 202px;
   width: 100%;
   border-radius: 16px;
@@ -677,8 +674,7 @@ textarea.input {
   align-items: flex-end;
   position: relative;
   width: 48%;
-  background: url(../img/main/trending.jpg) center no-repeat;
-  background-size: cover;
+  background: url(../img/main/trending.jpg) 0/cover no-repeat;
   border-radius: 16px;
 }
 @media (min-width: 90em) {
@@ -798,7 +794,7 @@ textarea.input {
 .popular__item {
   display: flex;
   align-items: flex-end;
-  background: url(../img/main/netflix.jpg) center no-repeat;
+  background: url(../img/main/netflix.jpg) 0/cover no-repeat;
   position: relative;
   background-size: cover;
   border-radius: 16px;
@@ -972,10 +968,7 @@ textarea.input {
 
 .item-aside {
   position: relative;
-  background: url(../img/aside/batman.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url(../img/aside/batman.jpg) 0/cover no-repeat;
   width: 100%;
   border-radius: 15px;
   padding: 20px;
