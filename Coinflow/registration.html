@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Регистрация</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220428185326">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__left header-left">
+					<a href="#" class="header__logo"><picture><source srcset="img/registration/logo.webp" type="image/webp"><img src="img/registration/logo.png" alt="Logo"></picture></a>
+					<nav class="header-left__menu menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Торговля</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Финансы</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Купить криптовалюту</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__right header-right">
+					<a href="#" class="header-right__lang">
+						<picture><source srcset="img/registration/lang-ru.webp" type="image/webp"><img src="img/registration/lang-ru.png" alt="Language"></picture>
+						<picture><source srcset="img/registration/arrow.webp" type="image/webp"><img src="img/registration/arrow.png" alt="Arrow"></picture>
+					</a>
+					<a href="#" class="header-right__currency">
+						<picture><source srcset="img/registration/carr-ru.webp" type="image/webp"><img src="img/registration/carr-ru.png" alt="Currency"></picture>
+						<picture><source srcset="img/registration/arrow.webp" type="image/webp"><img src="img/registration/arrow.png" alt="Arrow"></picture>
+					</a>
+					<div class="header-right__button-enter">
+						<a href="#" class="header-right__enter">Войти</a>
+					</div>
+					<div class="header-right__button-registration">
+						<a href="#" class="header-right__registration">Регистрация</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page page_registration">
+			<div class="form-registration__container">
+				<div class="form-registration">
+					<div class="form__title">
+						<h1>Создайте свой профиль</h1>
+					</div>
+					<div class="form__enter">
+						Уже есть аккаунт?
+						<a href="#"><span>Войти</span></a>
+					</div>
+					<div class="form__text">Регистрация</div>
+					<div data-tabs class="form__registration registration-form">
+						<div data-tabs-titles class="registration-form__navigation">
+							<button type="submit" class="registration-form__title _tab-active">По номеру</button>
+							<button type="submit" class="registration-form__title">По e-mail</button>
+						</div>
+						<div data-tabs-body class="registration-form__content">
+							<div class="registration-form__body">
+								<form action="#" class="registration-form__form">
+									<div class="registration-form__input">
+										<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" data-required="phone" placeholder="Введите номер телефона" class="input">
+									</div>
+									<div class="registration-form__input">
+										<input autocomplete="off" type="password" name="form[]" data-error="Ошибка" data-required="password" placeholder="Введите ваш пароль" class="input">
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" name="form[]" class="checkbox__input">
+										<div class="checkbox__label">Запомнить на этом устройстве</div>
+									</div>
+									<button type="submit" class="registration-form__button button">Войти в профиль</button>
+								</form>
+							</div>
+							<div class="registration-form__body">
+								<form action="#" class="registration-form__form">
+									<div class="registration-form__input">
+										<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" data-required="email" placeholder="Введите e-mail" class="input">
+									</div>
+									<div class="registration-form__input">
+										<input autocomplete="off" type="password" name="form[]" data-error="Ошибка" data-required="password" placeholder="Придумайте пароль" class="input">
+									</div>
+									<div class="registration-form__input">
+										<input autocomplete="off" type="password" name="form[]" data-error="Ошибка" data-required="password" placeholder="Повторите пароль" class="input">
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" name="form[]" class="checkbox__input">
+										<div class="checkbox__label">Принимаю <a href="#">условия использования</a></div>
+									</div>
+									<button type="submit" class="registration-form__button button">Создать аккаунт</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg">
+					<picture><source srcset="img/registration/bg.webp" type="image/webp"><img src="img/registration/bg.jpg" alt="Picture"></picture>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220428185326"></script>
+</body>
+
+</html>
